@@ -139,7 +139,7 @@ class EmojiParser {
 
   EmojiParser({bool init: true}) {
     if (init == true) {
-      initLocalData();
+      initServerData();
     }
   }
   void initLocalData() {
